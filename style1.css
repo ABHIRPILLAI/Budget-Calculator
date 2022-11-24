@@ -1,0 +1,171 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+ 
+  
+  .material-symbols-outlined {
+    color: red;
+    font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
+  }
+ 
+  
+  #transaction {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 30px;
+    width: 400px;
+  }
+  
+  #transaction li {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 25px;
+    margin-bottom: 10px;
+    width: 500px;
+    box-shadow: 0px 1px 1px 1px rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    width: 1540px;
+    color: black;
+    font-size: 20px;
+    font-weight: bolder;
+    text-decoration: underline;
+  }
+  
+  #transaction li .income {
+    display: inline-block;
+    background-color: green;
+    color: white;
+    padding: 30px;
+    margin-top: 5px;
+    border-radius: 3px;
+    width: 300px;
+  }
+  
+  #transaction li .expense {
+    display: inline-block;
+    background-color: red;
+    color: white;
+    padding: 30px;
+    border-radius: 3px;
+  }
+  
+  .inc-exp-container {
+    background-color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  .inc-exp-container > div {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .inc-exp-container > div:first-of-type {
+    border-right: 3px solid #dedede;
+  }
+  .money-plus {
+    color: #000000;
+  }
+  
+  .money-minus {
+    color: #000000;
+  }
+  
+  #inputerrAmount,
+  #inputerrName {
+    color: #c0392b;
+    font-size: 12px;
+  }
+  
+  .message {
+    margin-top: 5px;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.842);
+  }
+  .container-body
+  {
+    background-color: rgb(0, 0, 0);
+    margin-top: -20px;
+  }
+  #bud1{
+    margin-left: 400px;
+    font-size: 60px;
+    color: black;
+  }
+  #btn1
+  {
+    margin-top: 20px;
+  }
+  #div1
+  {
+    background-color: rgb(200, 6, 71);
+  }
+  #income{
+    background-color: rgb(200, 6, 71);
+  }
+  #Name,#Amount {
+    background: rgba(0, 0, 0, 0.5);
+    border: none;
+    position: relative;
+    display: block;
+    outline: none;
+    width: 400px;
+    height: 70px;
+    padding: 10px;
+    color: rgb(200, 6, 71);
+    box-shadow: 0 2px 10px 1px rgba(255, 255, 255, 0.5);
+    box-shadow: 0 2px 10px 1px rgba(0,0,0,0.5);
+    border-bottom: 2px solid rgb(200, 6, 71) ;
+    margin-left: 10px;
+  }
+  /* ::-webkit-input-placeholder { color: #666;} 
+  /* :-moz-placeholder { color: #666; } */
+  ::-moz-placeholder { color: #666; }
+#btn2{
+  color:rgb(200, 6, 71);
+  border: 2px solid rgb(200, 6, 71);
+  padding: 20px;
+
+}
+#btn2:hover
+{
+  background-color: rgb(200, 6, 71);
+  color: black;
+}
+#div3{
+  margin-left: -1200px;
+  margin-top: 100px;
+
+}
+.text
+{
+  color: rgb(255, 255, 255);
+  font-size: 50px;
+}
+#div4
+{
+  margin-left: 1200px;
+  margin-top: -230px;
+}
+#img
+{
+  height: 300px;
+  width: 400px;
+  transform: rotate(-45deg);
+  margin-top: -300px;
+}
+.img
+{
+  margin-left: 600px;
+  width: 500px;
+}
+#i1
+{
+  color: white;
+}
